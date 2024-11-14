@@ -1,11 +1,11 @@
-/* Complete methods: firstTwoSum and __________. 
+/* Complete methods: firstTwoSum and minWordLength. 
  * DO NOT MODIFY THE MAIN METHOD!
  *
  *Array task: Complete the method firstTwoSum. 
  *
  * This method:
  *  -takes in an array of integers that will have a length. 
- *  -If the array has a length of 2 or more, return the sum of the first values
+ *  -If the array has a length of 2 or more, return the sum of the first two values
  *  -If the array has a length of 1, just return that value
  *  -If the array has a length of 0, return 0.
  *  
@@ -27,7 +27,7 @@ public class App {
     public static void main(String[] args)  {
         //firstTwoSum example
         System.out.println("With input [1, 2, 3], you should get: 3. You got: " + firstTwoSum(new int[]{1,2,3}));
-        System.out.println("With input [5, 6, 9, 2], you should get: 11. You got: " + firstTwoSum(new int[]{1,2,3}));
+        System.out.println("With input [5, 6, 9, 2], you should get: 11. You got: " + firstTwoSum(new int[]{5, 6, 9, 2}));
         System.out.println("With input [7], you should get: 7. You got: " + firstTwoSum(new int[]{7}));
         System.out.println("With input [], you should get: 0. You got: " + firstTwoSum(new int[]{}));
         
