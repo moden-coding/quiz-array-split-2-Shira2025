@@ -23,6 +23,8 @@
  * An example of this method working is included in the main method 
 */
 
+import java.util.ArrayList;
+
 public class App {
     public static void main(String[] args)  {
         //firstTwoSum example
@@ -35,17 +37,44 @@ public class App {
         System.out.println("With input \"Java is fun\" you should return 2. You got: " + minWordLength("Java is fun"));
         System.out.println("With input \"Java isn't scary\" you should return 4. You got: " + minWordLength("Java isn't scary"));
         System.out.println("With input \"I can do this\" you should return 1. You got: " + minWordLength("I can do this"));
-
         
     }
 
     public static int firstTwoSum(int[] nums) {
-
-        return -1; //this is a placeholder
+       ArrayList <Integer> list = new ArrayList<>();
+    //    list.add(2);
+    //    list.add(3);
+    //    list.add(4);
+       if (list.size() == 0){
+        int first = list.get(0);
+        return  first;
+       }
+       if (list.size() == 1){
+        int moreThan1 = list.get(0) + list.get(1);
+        return moreThan1;
+       }
+    //    for (int i = 0; i > list.size(); i++){
+    //      if (list.size()>2){
+    //        int add = list.get(0) + list.get(1);
+    //        System.out.println(add); 
+    //        return add;
+    //      }   
+    //      if (list.size()<1){
+    //         System.out.println(list.get(1));
+    //         return list.get(0);
+    //         }
+    //      }
+    //      System.out.println("0");
+         return 0;
 
     }
 
     public static int minWordLength(String sentence){
+    //     ArrayList <String> list = new ArrayList<>();
+    // String [] pieces = sentence.split(" ");
+    // for (int i = 0; i> pieces.length; i++){
+    //     if (list.get(0)
+    
 
 
         return -1; //this is a placeholder
